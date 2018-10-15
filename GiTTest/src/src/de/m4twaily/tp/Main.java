@@ -25,7 +25,6 @@ public class Main extends JavaPlugin implements Listener {
 		if (!p.isSneaking()) {
 
 			e.setCancelled(true);
-			System.out.println("Hallo");
 			p.sendMessage(" §8>> §c§lLevel gecheatet");
 			p.setLevel(p.getLevel() + 1);
 			p.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 20, 20));
